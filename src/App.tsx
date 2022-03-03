@@ -1,4 +1,11 @@
-import { Button, Center, Flex, Heading, Textarea } from "@chakra-ui/react";
+import {
+  Button,
+  Center,
+  Flex,
+  Heading,
+  Show,
+  Textarea,
+} from "@chakra-ui/react";
 import { useEffect, useRef } from "react";
 import { useCookies } from "react-cookie";
 
@@ -61,13 +68,15 @@ function App() {
       </Center>
       <Textarea flexGrow="1" my={4} resize="vertical" ref={inputEl} />
       <Center>
-        <Button mx={4} colorScheme="blue" onClick={handleShuffle}>
+        <Button mx={[2, 4]} colorScheme="blue" onClick={handleShuffle}>
           シャッフル
         </Button>
-        <Button mx={4} colorScheme="gray" onClick={handleReset}>
-          リセット
-        </Button>
-        <Button mx={4} colorScheme="teal" onClick={handleSave}>
+        <Show above="sm">
+          <Button mx={[2, 4]} colorScheme="gray" onClick={handleReset}>
+            リセット
+          </Button>
+        </Show>
+        <Button mx={[2, 4]} colorScheme="teal" onClick={handleSave}>
           クッキーに保存
         </Button>
       </Center>
