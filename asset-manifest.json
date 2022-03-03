@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/line-shuffle-react/static/js/main.14db640e.js",
+    "main.js": "/line-shuffle-react/static/js/main.9bf5390a.js",
     "index.html": "/line-shuffle-react/index.html",
-    "main.14db640e.js.map": "/line-shuffle-react/static/js/main.14db640e.js.map"
+    "main.9bf5390a.js.map": "/line-shuffle-react/static/js/main.9bf5390a.js.map"
   },
   "entrypoints": [
-    "static/js/main.14db640e.js"
+    "static/js/main.9bf5390a.js"
   ]
 }
